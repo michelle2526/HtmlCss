@@ -1,0 +1,60 @@
+*{
+    /* margem externa */
+    margin: 0;
+    /* margem interna */
+    padding: 0;
+
+}
+
+
+p{
+    color: rgb(40, 40, 167);
+}
+
+#pagina{
+    width: 1200px;
+    margin: 0px auto;
+}
+   
+
+#cabecalho{
+    width: 1200px;
+    height: 60px;
+    background-color: rgb(95, 37, 99);
+    /* top - topo */
+    /* left - esquerda */
+    /* right - direita */
+    /* bottom - em baixo */
+    /* margin 2 valoreas =  eixo y e eixo x */
+    /* margin com 3 valores = eixo topo,direita,em baixo e esqueda */
+
+    /*margin-top: 100px;*/
+    /* margin-left: 20px; */
+    /* margin right: 20px; */
+    /*margin-bottom: 20px;*/
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+
+}
+#links{
+    width: 1200px;
+    height: 60px;
+    background-color: rgb(235, 175, 232);
+}
+#banner{
+    width: 80%;
+    height: 300px;;
+    /*  chama aimagem para backgrount */
+    background-image: url(../images/picole.jpg);
+    /* tamanho da imagem */
+    background-size: 100% ;
+    /* posiçao da imagem */
+    background-position-x: center;
+    /* quantas vezes o backgrount será repetido */
+    background-repeat: no-repeat ;
+    margin: 10px auto;
+    border-radius: 20px;
+}
