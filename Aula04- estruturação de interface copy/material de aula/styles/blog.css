@@ -1,0 +1,46 @@
+main{
+    width: 100%;
+}
+
+#Artigos{
+ width: 90%;
+ height: 300px;
+ margin: 20px auto;
+border-radius: 10px;
+padding: 20px;
+ 
+}
+
+.post{
+    width: 100%;
+    height: 300px;
+    margin: 0px 10px;
+   
+    
+}
+.postImagem{
+    width: 50%;
+    height: 100%;
+    float: left ;
+    background-color: rgb(71, 13, 105);
+}
+
+.postImagem img{
+    width: 100%;
+    height: 100%;
+    opacity: 50%;
+
+}
+.postTexto{
+    width: 50%;
+    height: 100%;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.postTexto p{
+    margin: 0px 10px;
+}
+
+
+
