@@ -1,0 +1,19 @@
+main{
+    width: 70%;
+    height: auto;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgb(218, 190, 155);
+    box-shadow: black 6px 6px;
+}
+#banner{
+    width: 90%;
+    height: 200px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 0 auto;
+
+}
+#banner img{
+    width: 100%;
+}
