@@ -1,0 +1,77 @@
+main{
+    width: 80%;
+    margin: 20px auto;
+    background-color: rgb(57, 11, 100);
+    box-shadow: gray 5px 5px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#secaoProdutos{
+    width: 100%;
+    background-color: rgb(12, 17, 17);
+    /* posicionamento padrao: esquerdo, topo,e em coluna*/
+   display: flex;/*,muda para linha*/
+    /* row-reverse inverte linha*/
+   /*collunm* coluna muda a direcao do flex box*/ 
+   flex-direction: row;/* linha */
+   justify-content: space-around;/* muda a orinetacao horizontal do flexbox*/
+   align-items: start;/* orientacao vertical do flexbox*/
+   flex-wrap: wrap;/* evita distorçoes com falta de espaço*/
+   gap: 20px;/* espaçamento entre elementos*/
+  
+}
+
+.produto{
+    width: 200px;
+    height: 300px;
+    background-color: chocolate;
+    margin: 10px;
+
+}
+
+.imagemProduto{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(176, 146, 204);
+    background-image: url();
+
+}
+
+.imagemProduto img{
+    width: 100%;
+    height: 100%;
+}
+
+.descricaoProduto{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(160, 47, 145);
+
+}
+
+h4{
+    font-size: 16pt;
+    margin: 10px 0px;
+    color: brown;
+    text-align: center;
+}
+.textoDescricao{
+    margin: 10px;
+    color: black;
+    text-align: center;
+}
+
+.preco{
+    font-weight: bold;
+    font-size: 14px;
+    color: crimson;
+}
+
+footer{
+    width: 100%;
+    height: 40px;
+    padding: 10px 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
